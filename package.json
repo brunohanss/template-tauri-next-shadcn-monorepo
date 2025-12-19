@@ -1,0 +1,21 @@
+{
+  "name": "template-tauri-next-shadcn-monorepo",
+  "private": true,
+  "packageManager": "npm@10.2.4",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -k \"turbo dev\" \"npm -w apps/desktop run tauri:dev\"",
+    "build": "turbo build",
+    "typecheck": "turbo typecheck",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "turbo": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}

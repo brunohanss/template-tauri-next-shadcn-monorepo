@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Process Buddy Theme — derived from Adobe palette
+   1) #5888A6  (HSL 202 30% 49%)  -> Primary
+   2) #F2A81D  (HSL 39  89% 53%)  -> Secondary
+   3) #F27F1B  (HSL 28  89% 52%)  -> Accent
+   4) #BF4011  (HSL 16  83% 40%)  -> Destructive
+   5) #591708  (HSL 11  83% 19%)  -> Deep / Dark base
+*/
+
+:root {
+  /* Base surfaces */
+  --background: 39 60% 98%;
+  --foreground: 11 83% 19%;
+
+  --card: 39 60% 99%;
+  --card-foreground: 11 83% 19%;
+
+  --popover: 39 60% 99%;
+  --popover-foreground: 11 83% 19%;
+
+  /* Brand */
+  --primary: 202 30% 49%;
+  --primary-foreground: 39 60% 98%;
+
+  --secondary: 39 89% 53%;
+  --secondary-foreground: 11 83% 19%;
+
+  --accent: 28 89% 52%;
+  --accent-foreground: 11 83% 19%;
+
+  /* Utility */
+  --muted: 39 30% 92%;
+  --muted-foreground: 11 35% 32%;
+
+  --destructive: 16 83% 40%;
+  --destructive-foreground: 39 60% 98%;
+
+  --border: 39 20% 86%;
+  --input: 39 20% 86%;
+  --ring: 202 30% 49%;
+
+  --radius: 0.75rem;
+}
+
+/* Optional dark mode. If you don’t want dark yet, delete this block. */
+.dark {
+  --background: 11 83% 8%;
+  --foreground: 39 60% 96%;
+
+  --card: 11 83% 10%;
+  --card-foreground: 39 60% 96%;
+
+  --popover: 11 83% 10%;
+  --popover-foreground: 39 60% 96%;
+
+  --primary: 202 30% 55%;
+  --primary-foreground: 11 83% 10%;
+
+  --secondary: 39 89% 53%;
+  --secondary-foreground: 11 83% 10%;
+
+  --accent: 28 89% 52%;
+  --accent-foreground: 11 83% 10%;
+
+  --muted: 11 30% 16%;
+  --muted-foreground: 39 20% 75%;
+
+  --destructive: 16 83% 45%;
+  --destructive-foreground: 11 83% 10%;
+
+  --border: 11 25% 18%;
+  --input: 11 25% 18%;
+  --ring: 202 30% 55%;
+}

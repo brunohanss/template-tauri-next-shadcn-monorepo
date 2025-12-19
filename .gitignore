@@ -1,0 +1,7 @@
+.turbo/**
+.history/**
+node_modules/*
+packages/**/node_modules/*
+paclkages/**/dist/*
+dist/*
+
