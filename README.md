@@ -3,7 +3,7 @@
 This repository is an **empty starter scaffold** for projects that need a **Tauri desktop app** and a **Next.js web app** sharing the same UI components.
 
 It is **not a production-ready example** and does **not implement any real product logic**.  
-Its purpose is to save me time whenn starting another project (from the initial setup and wiring work).
+Its purpose is to save me time when starting another project (from the initial setup and wiring work).
 
 ---
 
@@ -12,14 +12,6 @@ Its purpose is to save me time whenn starting another project (from the initial 
 - A working monorepo shell  
 - A known-good baseline where everything builds and runs  
 - A starting point you can fork and customize for your own project  
-
----
-
-## What This Template Is Not
-
-- Not a finished app  
-- Not an opinionated architecture for business logic  
-- Not a polished example or reference implementation  
 
 ---
 
