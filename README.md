@@ -3,7 +3,7 @@
 This repository is an **empty starter scaffold** for projects that need a **Tauri desktop app** and a **Next.js web app** sharing the same UI components.
 
 It is **not a production-ready example** and does **not implement any real product logic**.  
-Its purpose is to save you from the initial setup and wiring work.
+Its purpose is to save me time whenn starting another project (from the initial setup and wiring work).
 
 ---
 
